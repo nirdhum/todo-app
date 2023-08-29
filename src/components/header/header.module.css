@@ -15,7 +15,7 @@
     height: 5.4rem;
     bottom: -2.7rem;
     width: 100%;
-    max-width: 74rem;
+    max-width: 55%;
     display: flex;
     gap: 1rem;
     padding: 0 1rem;
@@ -54,4 +54,10 @@
     font-size: 1.4rem;
     font-weight: 500;
     letter-spacing: 0.6px;
+}
+
+@media screen and (max-width: 1024px) {
+    .newTaskForm {
+        max-width: 70%;
+    }
 }

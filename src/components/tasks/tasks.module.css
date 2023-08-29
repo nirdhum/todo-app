@@ -4,7 +4,7 @@
     gap: 5rem;
     padding: 10rem 0rem;
     width: 100%;
-    max-width: 80rem;
+    max-width: 50%;
     margin: 0px auto;
 }
 
@@ -15,7 +15,7 @@
     justify-self: center;
     width: 100%;
     position: fixed;
-    max-width: 90rem;
+    max-width: 60%;
     margin: 0 auto;
     top: 25rem;
     backdrop-filter: blur(2rem);
@@ -60,4 +60,14 @@
     flex-direction: column;
     gap: 1.4rem;
     margin-top: 32rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .header {
+        max-width: 70%;
+    }
+
+    .tasks {
+        max-width: 60%;
+    }
 }
