@@ -14,6 +14,13 @@
     align-self: center;
     justify-self: center;
     width: 100%;
+    position: fixed;
+    max-width: 90rem;
+    margin: 0 auto;
+    top: 25rem;
+    backdrop-filter: blur(2rem);
+    padding: 10rem 5rem 0;
+    z-index: 1;
 }
 
 .header div {
@@ -51,5 +58,6 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    grid-area: 1.4rem;
+    gap: 1.4rem;
+    margin-top: 32rem;
 }

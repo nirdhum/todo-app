@@ -5,7 +5,9 @@
     justify-content: center;
     font-size: 1.6rem;
     height: 25rem;
-    position: relative;
+    position: fixed;
+    width: 100vw;
+    z-index: 2;
 }
 
 .newTaskForm {

@@ -1,14 +1,29 @@
+/* eslint-disable react/prop-types */
 import todo from '../../assets/todo.svg'
 import { AiOutlinePlusCircle } from "react-icons/ai";
 import styles from './header.module.css';
+import { useState } from 'react';
 
-export function Header() {
+export function Header({ onAddTask }) {
+
+    const [title, setTitle] = useState('')
+
+    function handleSubmit(event) {
+        event.preventDefault()
+        onAddTask(title)
+        setTitle('')
+    }
+
+    function onChangeTitle(event) {
+        setTitle(event.target.value)
+    }
+
     return (
         <header className={styles.header}>
             <img src={todo} alt="" />
 
-            <form className={styles.newTaskForm}>
-                <input type="text" placeholder='Add a New Task' />
+            <form onSubmit={handleSubmit} className={styles.newTaskForm}>
+                <input type="text" placeholder='Add a New Task' value={title} onChange={onChangeTitle} />
                 <button>
                     Create
                     <AiOutlinePlusCircle size={22} />
