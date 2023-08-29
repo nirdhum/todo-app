@@ -1,0 +1,55 @@
+.tasks {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    padding: 10rem 0rem;
+    width: 100%;
+    max-width: 80rem;
+    margin: 0px auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    justify-self: center;
+    width: 100%;
+}
+
+.header div {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.header div p {
+    font-size: 1.8rem;
+    color: #6287ff;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.header div .completed {
+    font-size: 1.8rem;
+    color: #dadada;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.header div span {
+    font-size: 1.4rem;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    color: #1b1b1b;
+    padding: 0.2rem 1rem;
+    background: #fff;
+    border-radius: 5px;
+}
+
+.list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    grid-area: 1.4rem;
+}
