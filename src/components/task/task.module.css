@@ -23,6 +23,12 @@
     border-radius: 50%;
 }
 
+.checkContainer svg {
+    width: 100%;
+    height: 100%;
+    color: #6287ff;
+}
+
 .task p {
     font-size: 1.4rem;
     line-height: 2rem;

@@ -1,12 +1,12 @@
 /* eslint-disable react/prop-types */
 import styles from './task.module.css'
-import { AiFillDelete } from "react-icons/ai";
+import { AiFillDelete, AiFillCheckCircle } from "react-icons/ai";
 
-export function Task({ task }) {
+export function Task({ task, onComplete }) {
     return (
         <div className={styles.task}>
-            <button className={styles.checkContainer}>
-                <div />
+            <button className={styles.checkContainer} onClick={() => onComplete(task.id)}>
+                {task.isCompleted ? <AiFillCheckCircle /> : < div />}
             </button>
             <p>{task.title}</p>
             <button className={styles.delBtn}>
