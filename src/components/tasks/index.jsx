@@ -2,7 +2,7 @@
 import styles from './tasks.module.css';
 import { Task } from '../task';
 
-export function Tasks({ tasks, onComplete }) {
+export function Tasks({ tasks, onComplete, onDelete }) {
 
     const tasksQuantity = tasks.length
     const completedTask = tasks.filter(task => task.isCompleted).length
@@ -25,7 +25,7 @@ export function Tasks({ tasks, onComplete }) {
 
             <div className={styles.list}>
                 {tasks.map(task => (
-                    <Task key={task.id} task={task} onComplete={onComplete} />
+                    <Task key={task.id} task={task} onComplete={onComplete} onDelete={onDelete} />
                 ))}
             </div>
         </section>

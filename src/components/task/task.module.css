@@ -36,6 +36,11 @@
     margin-right: auto;
 }
 
+p.taskCompleted {
+    color: #6d6d6d;
+    text-decoration: line-through;
+}
+
 .delBtn {
     background: none;
     border: none;
