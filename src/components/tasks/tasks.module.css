@@ -119,3 +119,24 @@
         font-size: 1rem;
     }
 }
+
+@media screen and (max-width: 470px) {
+
+    .header {
+        top: 22rem;
+    }
+
+    .header div {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .header {
+        padding: 10rem 2rem 0;
+    }
+
+    .tasks {
+        max-width: 80%;
+    }
+}

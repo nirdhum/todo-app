@@ -67,3 +67,27 @@
         max-width: 80%;
     }
 }
+
+@media screen and (max-width: 470px) {
+
+    .newTaskForm {
+        padding: 0;
+    }
+
+    .newTaskForm input {
+        font-size: 1.4rem;
+    }
+
+    .newTaskForm button {
+        font-size: 1.2rem;
+        padding: 0 1.4rem;
+    }
+}
+
+@media screen and (max-width: 380px) {
+
+    .newTaskForm {
+        padding: 0;
+        max-width: 85%;
+    }
+}
