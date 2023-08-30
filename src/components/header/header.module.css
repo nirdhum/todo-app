@@ -61,3 +61,9 @@
         max-width: 70%;
     }
 }
+
+@media screen and (max-width: 670px) {
+    .newTaskForm {
+        max-width: 80%;
+    }
+}

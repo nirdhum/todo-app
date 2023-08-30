@@ -71,3 +71,51 @@
         max-width: 60%;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .header div p {
+        font-size: 1.4rem;
+    }
+
+    .header div .completed {
+        font-size: 1.4rem;
+    }
+
+    .header div span {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .header {
+        max-width: 80%;
+    }
+
+    .tasks {
+        max-width: 70%;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .header {
+        max-width: 90%;
+    }
+
+    .tasks {
+        max-width: 70%;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .header div p {
+        font-size: 1.2rem;
+    }
+
+    .header div .completed {
+        font-size: 1.2rem;
+    }
+
+    .header div span {
+        font-size: 1rem;
+    }
+}
