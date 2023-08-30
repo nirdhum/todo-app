@@ -69,7 +69,6 @@
 }
 
 @media screen and (max-width: 470px) {
-
     .newTaskForm {
         padding: 0;
     }
@@ -85,7 +84,6 @@
 }
 
 @media screen and (max-width: 380px) {
-
     .header img {
         width: 60%;
     }
@@ -97,7 +95,6 @@
 }
 
 @media screen and (max-width: 370px) {
-
     .newTaskForm {
         max-width: 90%;
 
@@ -105,7 +102,6 @@
 }
 
 @media screen and (max-width: 350px) {
-
     .newTaskForm {
         max-width: 95%;
         gap: 0.5rem;
