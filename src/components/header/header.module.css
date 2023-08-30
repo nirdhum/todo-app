@@ -84,9 +84,35 @@
     }
 }
 
+@media screen and (max-width: 425px) {
+    .header img {
+        width: 40%;
+    }
+
+    .newTaskForm {
+        max-width: 95%;
+        gap: 1rem;
+        flex-direction: column;
+        height: 40%;
+        align-items: center;
+    }
+
+    .newTaskForm input {
+        width: 80%;
+    }
+
+    .newTaskForm button {
+        padding: 0 1rem;
+        gap: 0.5rem;
+        width: 30%;
+        margin: 0 auto;
+        height: 4.2rem;
+    }
+}
+
 @media screen and (max-width: 380px) {
     .header img {
-        width: 60%;
+        width: 40%;
     }
 
     .newTaskForm {
