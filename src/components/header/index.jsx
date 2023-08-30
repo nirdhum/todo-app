@@ -10,8 +10,12 @@ export function Header({ onAddTask }) {
 
     function handleSubmit(event) {
         event.preventDefault()
-        onAddTask(title)
-        setTitle('')
+        if (title == '') {
+            return null;
+        } else {
+            onAddTask(title)
+            setTitle('')
+        }
     }
 
     function onChangeTitle(event) {
