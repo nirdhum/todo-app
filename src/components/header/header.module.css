@@ -112,7 +112,7 @@
 
 @media screen and (max-width: 380px) {
     .header img {
-        width: 40%;
+        width: 25%;
     }
 
     .newTaskForm {
